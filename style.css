@@ -1,0 +1,89 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsla(233, 50%, 7%); 
+    font-size: 15px;
+    font-family: Inter;
+}
+
+.container{
+    width: 49rem;
+    height: 23rem;
+   
+     margin: 0 auto; /*MARGIN 0 AUTO CENTER THE CONTENT ON THE HORIZONTAL */
+    display: flex;
+    position: relative;
+    top: 50%;
+     transform: translateY(50%); /* SO THIS POSITION CENTER THE CONTENT ON VERTICAL */
+     border-radius: 0.70rem;
+     background-color:  hsl(244, 38%, 16%);
+     box-shadow: 5px 0 hsl(244, 38%, 16%);
+   
+   
+}
+
+.container h1{
+    color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+}
+.container p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:Lexend Deca;
+    font-weight: lighter;
+}
+
+.img-section{
+    width: 24.5rem;
+    height: 23rem;
+    border-radius: 0  0.70rem 0.70rem 0 ;
+   
+    background: linear-gradient(hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)), url(./images/image-header-desktop.jpg);
+  
+}
+
+.text-section{
+    width: 25rem;
+    height: 23rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 29px;
+}
+
+.secondary-info{
+   display: flex;
+   color: hsla(0, 0%, 100%, 0.6)
+   
+}
+.thid-info {
+   padding-left: 20px;
+   color: hsla(0, 0%, 100%, 0.6);
+   
+}
+
+.second-info{
+    padding-left: 20px;
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
+
+.bolder{
+    font-family:Lexend Deca;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.light{
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+span{
+    color: hsl(271, 74%, 56%);
+}
